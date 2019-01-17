@@ -15,5 +15,5 @@ def move(board, position, character = "X")
   board[0] = character
 end
 
-board = ["X", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 move(board, 2, "O")
